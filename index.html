@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenHabit AI - Dự án KHKT 2026</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <style>
-        /* ============================================
-           1. DESIGN SYSTEM - Premium Variables
-        ============================================ */
         :root {
             /* Premium Color Palette */
             --primary: #00D9A5;
@@ -24,29 +24,29 @@
             --secondary: #0A0E27;
             --accent: #FF6B6B;
             --accent-gold: #FFD93D;
-            
+
             /* Neutral Colors */
             --bg-body: #FAFBFC;
             --bg-white: #FFFFFF;
             --bg-dark: #0A0E27;
             --bg-card: rgba(255, 255, 255, 0.8);
-            
+
             /* Text Colors */
             --text-primary: #0A0E27;
             --text-secondary: #64748B;
             --text-muted: #94A3B8;
             --text-white: #FFFFFF;
-            
+
             /* Premium Gradients */
             --grad-primary: linear-gradient(135deg, #00D9A5 0%, #00B88A 100%);
             --grad-hero: linear-gradient(135deg, #00D9A5 0%, #3B82F6 50%, #8B5CF6 100%);
             --grad-dark: linear-gradient(135deg, #0A0E27 0%, #1E293B 100%);
             --grad-glow: radial-gradient(circle at 50% 50%, rgba(0, 217, 165, 0.2) 0%, transparent 70%);
-            
+
             /* Glassmorphism */
             --glass-bg: rgba(255, 255, 255, 0.1);
             --glass-border: rgba(255, 255, 255, 0.2);
-            
+
             /* Premium Shadows */
             --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
             --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
@@ -55,14 +55,14 @@
             --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
             --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
             --shadow-glow: 0 0 40px rgba(0, 217, 165, 0.3);
-            
+
             /* Spacing */
             --radius-sm: 8px;
             --radius-md: 16px;
             --radius-lg: 24px;
             --radius-xl: 32px;
             --radius-full: 9999px;
-            
+
             /* Typography */
             --font-primary: 'Inter', sans-serif;
             --font-display: 'Space Grotesk', sans-serif;
@@ -92,7 +92,12 @@
             -moz-osx-font-smoothing: grayscale;
         }
 
-        h1, h2, h3, h4, h5, h6 {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
             font-family: var(--font-display);
             font-weight: 700;
             line-height: 1.2;
@@ -408,8 +413,15 @@
         }
 
         @keyframes float {
-            0%, 100% { transform: translate(0, 0) scale(1); }
-            50% { transform: translate(30px, -30px) scale(1.1); }
+
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            50% {
+                transform: translate(30px, -30px) scale(1.1);
+            }
         }
 
         .hero-grid {
@@ -556,8 +568,15 @@
         }
 
         @keyframes floatCard {
-            0%, 100% { transform: translateY(0) rotate(0deg); }
-            50% { transform: translateY(-15px) rotate(2deg); }
+
+            0%,
+            100% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-15px) rotate(2deg);
+            }
         }
 
         /* ============================================
@@ -643,8 +662,13 @@
         }
 
         @keyframes shimmer {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(100%); }
+            0% {
+                transform: translateX(-100%);
+            }
+
+            100% {
+                transform: translateX(100%);
+            }
         }
 
         .progress-bar.green {
@@ -1195,6 +1219,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <!-- Header -->
@@ -1229,24 +1254,35 @@
                         Bảo vệ Cộng đồng
                     </h1>
                     <p class="hero-desc">
-                        Giải quyết "nghịch lý hành vi" bằng AI và Gamification. Tích hợp mạng lưới cứu hộ thiên tai <strong>Safety Hub</strong> đầu tiên tại Việt Nam.
+                        Giải quyết "nghịch lý hành vi" bằng AI và Gamification. Tích hợp mạng lưới cứu hộ thiên tai
+                        <strong>Safety Hub</strong> đầu tiên tại Việt Nam.
                     </p>
-                    
+
                     <div class="store-badges" id="download">
-                        <a href="https://apps.apple.com/vn/app/greenhabit-ai/id6757384637?l=vi" class="store-btn">
-                            <i class="ri-apple-fill store-icon"></i>
-                            <div class="store-text">
-                                <span>Download on the</span>
-                                <strong>App Store</strong>
-                            </div>
-                        </a>
-                        <a href="https://play.google.com/store/apps/details?id=com.phuongdev.greenhabit" class="store-btn">
-                            <i class="ri-google-play-fill store-icon"></i>
-                            <div class="store-text">
-                                <span>GET IT ON</span>
-                                <strong>Google Play</strong>
-                            </div>
-                        </a>
+                        <<<<<<< HEAD <a href="https://apps.apple.com/vn/app/greenhabit-ai/id6757384637?l=vi"
+                            class="store-btn">
+                            =======
+                            <a href="https://testflight.apple.com/join/X9dMbc2g" class="store-btn">
+                                >>>>>>> 04d6118cf5638b9588832aebc78aad68cfe9f4c8
+                                <i class="ri-apple-fill store-icon"></i>
+                                <div class="store-text">
+                                    <span>Download on the</span>
+                                    <strong>App Store</strong>
+                                </div>
+                            </a>
+                            <<<<<<< HEAD <a
+                                href="https://play.google.com/store/apps/details?id=com.phuongdev.greenhabit"
+                                class="store-btn">
+                                =======
+                                <a href="https://drive.google.com/file/d/1PmRK3dQtCoe-ikSdshLXTodGdXJhISJS/"
+                                    class="store-btn">
+                                    >>>>>>> 04d6118cf5638b9588832aebc78aad68cfe9f4c8
+                                    <i class="ri-google-play-fill store-icon"></i>
+                                    <div class="store-text">
+                                        <span>GET IT ON</span>
+                                        <strong>Google Play</strong>
+                                    </div>
+                                </a>
                     </div>
                 </div>
 
@@ -1296,7 +1332,8 @@
                         <div class="progress-bg">
                             <div class="progress-bar green" style="width: 83.1%"></div>
                         </div>
-                        <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 12px;">Học sinh hiểu rõ tầm quan trọng.</p>
+                        <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 12px;">Học sinh hiểu rõ tầm
+                            quan trọng.</p>
                     </div>
 
                     <div class="data-box">
@@ -1307,10 +1344,12 @@
                         <div class="progress-bg">
                             <div class="progress-bar red" style="width: 5%"></div>
                         </div>
-                        <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 12px;">Đa số chọn "Chưa bao giờ".</p>
+                        <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 12px;">Đa số chọn "Chưa bao
+                            giờ".</p>
                     </div>
 
-                    <div style="padding: 28px; background: var(--bg-white); border-radius: var(--radius-lg); border: 1px solid rgba(0, 0, 0, 0.05);">
+                    <div
+                        style="padding: 28px; background: var(--bg-white); border-radius: var(--radius-lg); border: 1px solid rgba(0, 0, 0, 0.05);">
                         <h4 style="margin-bottom: 20px; font-size: 1.2rem;">Nguyên nhân cốt lõi:</h4>
                         <ul style="color: var(--text-primary); font-size: 1rem; line-height: 2;">
                             <li style="margin-bottom: 12px;">🔴 <strong>74.4%</strong> Thiếu động lực (Nhàm chán)</li>
@@ -1361,7 +1400,8 @@
                         <div class="feat-icon"><i class="ri-eye-2-line"></i></div>
                         <h3 class="feat-title">AI Verification (Gemini 2.5)</h3>
                         <p class="feat-desc" style="margin-bottom: 24px;">
-                            Sử dụng Computer Vision để phân tích video hành động. Loại bỏ hoàn toàn sự gian lận của checklist thủ công.
+                            Sử dụng Computer Vision để phân tích video hành động. Loại bỏ hoàn toàn sự gian lận của
+                            checklist thủ công.
                         </p>
                         <div style="display: flex; gap: 20px; font-size: 0.95rem; flex-wrap: wrap;">
                             <span style="display: flex; align-items: center; gap: 6px; color: var(--text-primary);">
@@ -1373,7 +1413,8 @@
                         </div>
                     </div>
                     <div style="flex: 0.8;">
-                        <img src="images/scan.png" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);" alt="AI Scan">
+                        <img src="images/scan.png"
+                            style="border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);" alt="AI Scan">
                     </div>
                 </div>
 
@@ -1382,20 +1423,25 @@
                         <i class="ri-gamepad-line"></i>
                     </div>
                     <h3 class="feat-title">Gamification</h3>
-                    <p class="feat-desc">Biến sống xanh thành Game. Nuôi cây ảo, đổi điểm lấy Voucher thực tế tại Marketplace.</p>
+                    <p class="feat-desc">Biến sống xanh thành Game. Nuôi cây ảo, đổi điểm lấy Voucher thực tế tại
+                        Marketplace.</p>
                 </div>
 
-                <div class="bento-card" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800" style="background: rgba(255, 107, 107, 0.05); border-color: rgba(255, 107, 107, 0.2);">
+                <div class="bento-card" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800"
+                    style="background: rgba(255, 107, 107, 0.05); border-color: rgba(255, 107, 107, 0.2);">
                     <div class="feat-icon" style="background: rgba(255, 107, 107, 0.15); color: var(--accent);">
                         <i class="ri-alarm-warning-fill"></i>
                     </div>
                     <h3 class="feat-title" style="color: var(--accent);">Safety Hub</h3>
-                    <p class="feat-desc" style="color: var(--text-secondary);">Mạng lưới cứu hộ thiên tai. Định vị tình nguyện viên gần nhất. Gọi điện Twilio tự động.</p>
+                    <p class="feat-desc" style="color: var(--text-secondary);">Mạng lưới cứu hộ thiên tai. Định vị tình
+                        nguyện viên gần nhất. Gọi điện Twilio tự động.</p>
                 </div>
 
-                <div class="bento-card bento-wide" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" style="background: var(--grad-dark); border: none;">
+                <div class="bento-card bento-wide" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800"
+                    style="background: var(--grad-dark); border: none;">
                     <div style="flex: 0.8;">
-                        <img src="images/nhiemvu.png" style="border-radius: var(--radius-lg); opacity: 0.95;" alt="Nhiệm vụ">
+                        <img src="images/nhiemvu.png" style="border-radius: var(--radius-lg); opacity: 0.95;"
+                            alt="Nhiệm vụ">
                     </div>
                     <div style="flex: 1;">
                         <div class="feat-icon" style="background: rgba(255, 255, 255, 0.15); color: white;">
@@ -1452,10 +1498,12 @@
 
                 <div class="tl-item" data-aos="fade-left" data-aos-duration="800">
                     <div class="tl-dot" style="border-color: var(--accent-gold); background: var(--accent-gold);"></div>
-                    <div class="tl-content" style="border: 2px solid var(--accent-gold); background: rgba(255, 217, 61, 0.05);">
+                    <div class="tl-content"
+                        style="border: 2px solid var(--accent-gold); background: rgba(255, 217, 61, 0.05);">
                         <span class="tl-date" style="color: #D97706;">06/12 - 07/12: DẤU ẤN</span>
                         <h3>Olympic STEM HNUE</h3>
-                        <p>Đạt <strong>Giải Triển vọng</strong>. BGK đánh giá cao sản phẩm và khẳng định sẽ phát triển mạnh mẽ trong tương lai dù lúc đó sản phẩm chưa hoàn thiện.</p>
+                        <p>Đạt <strong>Giải Triển vọng</strong>. BGK đánh giá cao sản phẩm và khẳng định sẽ phát triển
+                            mạnh mẽ trong tương lai dù lúc đó sản phẩm chưa hoàn thiện.</p>
                         <img src="images/stem.png" class="tl-img" alt="Olympic">
                     </div>
                 </div>
@@ -1465,7 +1513,8 @@
                     <div class="tl-content">
                         <span class="tl-date">21/12 - Nay</span>
                         <h3>Hoàn thiện & KHKT</h3>
-                        <p>Qua thực nghiệm cho thấy sản phẩm đem lại hiệu quả rõ rệt, sẵn sàng cho cuộc thi KHKT cấp tỉnh</p>
+                        <p>Qua thực nghiệm cho thấy sản phẩm đem lại hiệu quả rõ rệt, sẵn sàng cho cuộc thi KHKT cấp
+                            tỉnh</p>
                         <img src="images/khkt.png" class="tl-img" alt="Banner">
                     </div>
                 </div>
@@ -1666,4 +1715,5 @@
         });
     </script>
 </body>
+
 </html>
